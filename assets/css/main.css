@@ -2072,8 +2072,24 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
-			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+			.image.thumb.two:hover:before {
+				background: url("images/spacemace.gif"), url("images/overlay.png");
+				background-size: contain;
+				opacity: 1.0;
+			}
+			.image.thumb.three:hover:before {
+				background: url("images/montecristo.gif"), url("images/overlay.png");
+				background-size: contain;
+				opacity: 1.0;
+			}
+			.image.thumb.four:hover:before {
+				background: url("images/pizzaface.gif"), url("images/overlay.png");
+				background-size: contain;
+				opacity: 1.0;
+			}
+			.image.thumb.one:hover:before {
+				background: url("../../images/poodle.jpeg"), url("images/overlay.png");
+				background-size: contain;
 				opacity: 1.0;
 			}
 
